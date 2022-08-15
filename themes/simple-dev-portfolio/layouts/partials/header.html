@@ -1,0 +1,27 @@
+<header class="flex justify-center absolute items-center inset-x-0 top-0 z-10 py-4 px-[5%]">
+    <nav class="flex justify-between items-center w-full h-full max-w-screen-xl text-secondary">
+        <h3 class="font-bold h-full text-3xl m-1 no-underline">Xin Wei</h3>
+
+        <div class="items-center w-auto h-full space-x-4 md:space-x-6 ml-auto hidden md:block">
+            <a href="#about">
+                <span class="text-tertiary">01.</span>
+                About
+            </a>
+            <a href="#experience">
+                <span class="text-tertiary">02.</span>
+                Experience
+            </a>
+            <a href="#contact">
+                <span class="text-tertiary">03.</span>
+                Contact
+            </a>
+            <a
+                class="inline-block no-underline rounded-md px-4 py-2 border border-button hover:bg-button hover:text-white transition-colors duration-150 ease-in"
+                href="{{ .Site.Data.portfolio.resume }}"
+                target="_blank"
+            >
+                Resume
+            </a>
+        </div>
+    </nav>
+</header>

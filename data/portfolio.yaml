@@ -1,0 +1,149 @@
+header: Lau Xin Wei
+subheader: Aspiring Full-Stack Developer
+resume: https://drive.google.com/file/d/1SjZollYp-MRUxEzgY0V6gD7vR0jeu5vH/
+
+social:
+    - link: https://www.linkedin.com/in/lauxinwei/
+      svg: linkedin.svg
+    - link: https://github.com/xinweilau
+      svg: github.svg
+
+about:
+    description: An aspiring Full-stack developer and sophomore at Nanyang Technological University, currently pursuing a degree in Computer Science. I am a highly motivated individual who consistently strives to improve my skills, and enjoys creating meaningful and useful solutions that helps tackle problems in our everyday lives.
+
+    skills:
+        - name: React
+          svg: react.svg
+        - name: CSS
+          svg: css.svg
+        - name: HTML
+          svg: html.svg
+        - name: C
+          svg: c.svg
+        - name: Jest
+          svg: jest.svg
+        - name: Tailwind CSS
+          svg: tailwindcss.svg
+        - name: JavaScript
+          svg: javascript.svg
+        - name: TypeScript
+          svg: typescript.svg
+        - name: Express
+          svg: express.svg
+        - name: Hugo
+          svg: hugo.svg
+        - name: Firebase
+          svg: firebase.svg
+        - name: Go
+          svg: go.svg
+        - name: GraphQL
+          svg: graphql.svg
+        - name: MongoDB
+          svg: mongodb.svg
+        - name: NodeJS
+          svg: nodejs.svg
+        - name: Ruby
+          svg: ruby.svg
+        - name: Snowflake
+          svg: snowflake.svg
+        - name: Airflow
+          svg: airflow.svg
+        - name: Heroku
+          svg: heroku.svg
+        - name: Azure
+          svg: azure.svg
+        - name: MySQL
+          svg: mysql.svg
+        - name: Ruby on Rails
+          svg: ruby-on-rails.svg
+
+experience:
+    - company: Circles Life, Labs
+      title: Software Engineer Intern
+      description: |
+          Full-Stack Development for a data-driven analytics portal with ReactJS, NodeJS, ExpressJS, and Snowflake.
+          Implemented web usage and audit tracking using Google Analytics 4 and developed a script to pipe extracted data to Snowflake with Airflow.
+          Architect a CRM campaign builder which aims to greatly reduce operating costs and improve customer outreach.
+      startDate: 2022-05-09
+      endDate: 2022-09-09
+    - company: KatoKato Pte Ltd
+      title: Software Engineer Intern
+      description: |
+          Full-Stack Development under the Web Platform team to develop a Minimum Viable Product (MVP) for the administrative platform used by vendors to manage their businesses.
+          Actualised design mock-ups into actual web application using ReactJS for vendors to interact with the website. 
+          Developed the backend APIs using NodeJS, TypeScript; ExpressJS and GraphQL with a team of developers.
+      startDate: 2021-12-01
+      endDate: 2021-12-31
+    - company: 8Bit Global Pte Ltd
+      title: Backend Engineer Intern
+      description: |
+          Implemented localisation algorithms for key communication emails using Ruby on Rails.
+          Gained insights on composing resilient codes to ensure future localisation support of other languages.
+          Designed and Implemented an integrated mail service with Mailgun utilising NodeJS and ExpressJS which greatly improved customer support functionalities.
+      startDate: 2020-05-01
+      endDate: 2020-07-31
+    - company: Ministry of Education, Experimental Systems and Technology Lab
+      title: Software Engineer Intern
+      description: |
+          Actualised full-cycle of software development from requirement gathering to deployment using Ruby on Rails and PostgreSQL.
+          Executed various User Experience (UX) techniques with stakeholders to analyse and better understand user's requirements.
+          Developed a web survey portal which streamlines the company welfare process by sending out survey questionnaires to the employees of the branch on a bimonthly basis.
+      startDate: 2017-03-01
+      endDate: 2017-08-31
+
+projects:
+    - title: Personal Website Hugo Theme
+      projectDate: 2022-08-11
+      description: |
+          Utilised HTML, JavaScript and Tailwind CSS to create a personal website (this website that you're on right now).
+          Deployed on Azure Web App.
+          In progress of converting the website into a custom Hugo theme.
+      skills:
+          - name: HTML
+            svg: html.svg
+          - name: JavaScript
+            svg: javascript.svg
+          - name: Tailwind CSS
+            svg: tailwindcss.svg
+          - name: Azure
+            svg: azure.svg
+    - title: Bus Arrival Telegram Bot
+      projectDate: 2022-04-01
+      description: |
+          Utilised Go programming language with Land Transport Authority (LTA) DataMall API to develop a bus arrival tracker with notification reminder capabilities.
+          Deployed on Heroku.
+      skills:
+          - name: React
+            svg: react.svg
+          - name: Go
+            svg: go.svg
+          - name: Heroku
+            svg: heroku.svg
+    - title: NTU Timetable to iCalendar Converter
+      projectDate: 2021-07-01
+      description: |
+          Utilised TypeScript programming language with NodeJS and ReactJS to develop a website which converts NTU's text-based timetable to an iCalendar event format.
+          Deployed on Heroku.
+      skills:
+          - name: React
+            svg: react.svg
+          - name: NodeJS
+            svg: nodejs.svg
+          - name: TypeScript
+            svg: typescript.svg
+          - name: HTML
+            svg: html.svg
+          - name: CSS
+            svg: css.svg
+          - name: Heroku
+            svg: heroku.svg
+
+actions:
+    - title: GitHub Profile
+      subtitle: More projects
+      button: "@xinweilau"
+      link: https://github.com/xinweilau
+    - title: Get In Touch
+      subtitle: "Contact me"
+      button: "Email"
+      link: mailto:xinweii1996@live.com

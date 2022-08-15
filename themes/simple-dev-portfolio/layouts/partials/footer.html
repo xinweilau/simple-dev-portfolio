@@ -1,0 +1,17 @@
+<footer id="contact" class="mb-12 px-[5%] md:p-0 md:w-9/12 mx-auto">
+    <div class="flex flex-row flex-wrap">
+        {{- range .Site.Data.portfolio.actions }}
+        <div class="text-center basis-full md:basis-6/12 my-4">
+            <div class="text-tertiary w-full">{{ .subtitle }}</div>
+            <h2 class="text-4xl text-secondary font-semibold">{{ .title }}</h2>
+            <a
+                class="inline-block no-underline rounded-md mt-4 px-4 py-2 text-secondary border border-button hover:bg-button hover:text-white transition-colors duration-150 ease-in"
+                href="{{ .link }}"
+                target="_blank"
+            >
+                {{ .button }}
+            </a>
+        </div>
+        {{- end }}
+    </div>
+</footer>

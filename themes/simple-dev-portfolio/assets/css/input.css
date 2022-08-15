@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Source-Code-Pro;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    table,
+    b {
+        font-family: Asap;
+    }
+
+    p {
+        @apply text-content;
+    }
+}

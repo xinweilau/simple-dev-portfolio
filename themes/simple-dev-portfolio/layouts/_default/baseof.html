@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <body class="w-full h-full flex flex-col bg-darkblue">
+        {{- partial "header.html" . -}} {{- block "main" . }}{{- end }} {{- partial "footer.html" .
+        -}} {{- partial "aside.html" .}}
+    </body>
+</html>

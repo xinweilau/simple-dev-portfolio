@@ -1,0 +1,53 @@
+{{- define "main" -}}
+<main class="px-[5%] md:p-0 md:w-9/12 mx-auto">
+    <article class="table-cell align-middle h-screen">
+        <span class="block text-tertiary">Hi there, my name is</span>
+        <h1 class="font-bold text-primary text-5xl md:text-7xl leading-snug">
+            {{ .Site.Data.portfolio.header }}
+            <br />
+            <div class="text-secondary">{{ .Site.Data.portfolio.subheader }}</div>
+        </h1>
+    </article>
+
+    <article id="about" class="mb-12">
+        <div class="flex justify-between items-center align-middle my-4 text-primary text-2xl">
+            <div class="mr-4">
+                <span class="text-tertiary">01.</span>
+                <span class="font-asap">About Me</span>
+            </div>
+            <hr class="flex-1 border-gray-400 border-0.5" />
+        </div>
+
+        <p class="my-4">{{ .Site.Data.portfolio.about.description }}</p>
+
+        <div class="py-4">
+            <h2 class="font-semibold text-xl text-secondary">SKILLS</h2>
+            {{ partial "skills" (dict "skills" .Site.Data.portfolio.about.skills) }}
+        </div>
+    </article>
+
+    <article id="experience" class="mb-12">
+        <div class="flex justify-between items-center align-middle my-4 text-primary text-2xl">
+            <div class="mr-4">
+                <span class="text-tertiary">02.</span>
+                <span class="font-asap">Work Experience</span>
+            </div>
+            <hr class="flex-1 border-gray-400 border-0.5" />
+        </div>
+
+        {{- partial "timeline.html" (dict "data" .Site.Data.portfolio.experience) -}}
+    </article>
+
+    <article id="projects" class="mb-12">
+        <div class="flex justify-between items-center align-middle my-4 text-primary text-2xl">
+            <div class="mr-4">
+                <span class="text-tertiary">03.</span>
+                <span class="font-asap">Projects</span>
+            </div>
+            <hr class="flex-1 border-gray-400 border-0.5" />
+        </div>
+
+        {{- range .Site.Data.portfolio.projects }} {{ partial "project" . }} {{- end}}
+    </article>
+</main>
+{{- end -}}

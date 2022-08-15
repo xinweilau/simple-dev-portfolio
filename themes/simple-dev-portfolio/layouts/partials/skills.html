@@ -1,0 +1,3 @@
+<div class="flex flex-wrap child:mr-4 child:mt-4 content-between justify-start font-asap">
+    {{- range .skills -}} {{- partial "tag.html" (dict "name" .name "svg" .svg) -}} {{- end -}}
+</div>

@@ -1,0 +1,22 @@
+<div class="relative">
+    <div class="border-button border-2 h-timeline absolute left-3.5 top-4"></div>
+
+    <ul>
+        {{- range .data }}
+        <li class="mb-8">
+            <div class="flex align-middle items-center ml-2">
+                <div class="rounded-full h-4 w-4 bg-button z-10 flex-shrink-0"></div>
+                <div class="ml-4 font-semibold text-xl text-primary font-asap">{{ .company }}</div>
+            </div>
+
+            <div class="ml-10">
+                <div class="text-primary font-asap opacity-75 italic">{{ .title }}</div>
+                <div class="text-secondary font-light my-2">
+                    {{ dateFormat "Jan 2006" .startDate }} - {{ dateFormat "Jan 2006" .endDate }}
+                </div>
+                <p>{{ .description }}</p>
+            </div>
+        </li>
+        {{- end}}
+    </ul>
+</div>

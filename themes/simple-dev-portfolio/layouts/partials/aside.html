@@ -1,0 +1,15 @@
+<aside class="hidden md:block fixed bottom-0 left-[5%] h-1/4 text-center">
+    <ul class="mb-2">
+        {{- range .Site.Data.portfolio.social }}
+        <li
+            class="opacity-50 mb-1 transition-all duration-200 ease-in hover:-translate-y-1 hover:opacity-100"
+        >
+            <a href="{{ .link }}" target="_blank">
+                <div class="fill-content w-10 h-10">{{ partial "svg.html" .svg }}</div>
+            </a>
+        </li>
+
+        {{- end }}
+    </ul>
+    <div class="absolute border-secondary border-r w-3/6 h-full opacity-50"></div>
+</aside>
