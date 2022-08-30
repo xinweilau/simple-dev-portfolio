@@ -1,6 +1,8 @@
 <header class="flex justify-center absolute items-center inset-x-0 top-0 z-10 py-4 px-[5%]">
-    <nav class="flex justify-between items-center w-full h-full max-w-screen-xl text-secondary">
-        <h3 class="font-bold h-full text-3xl m-1 no-underline">Xin Wei</h3>
+    <nav class="flex justify-between items-center w-full h-full text-secondary">
+        <h3 class="font-bold h-full text-3xl m-1 no-underline">
+            {{ .Site.Data.portfolio.firstname }}
+        </h3>
 
         <div class="items-center w-auto h-full space-x-4 md:space-x-6 ml-auto hidden md:block">
             <a href="#about">

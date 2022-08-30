@@ -59,7 +59,8 @@ Edit `data/portfolio.yaml` to populate the portfolio content. You can add more t
 1. Introduction
 
 ```
-header: <Your Name>
+firstname: <Your first name>
+lastname: <Your last name>
 subheader: <Your Slogan>
 resume: <Link to your resume document>
 ```
