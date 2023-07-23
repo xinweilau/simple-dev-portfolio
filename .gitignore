@@ -1,0 +1,7 @@
+# Dependencies
+.hugo_build.lock
+package-lock.json
+node_modules/
+
+# MacOS
+.DS_Store

@@ -11,13 +11,15 @@ As this theme is built with [Hugo](https://gohugo.io/) and [Tailwind CSS](https:
 
 During development, ensure that the interactive mode for the Tailwind CLI is active (if you have any custom CSS). This can be done by navigating to `./themes/simple-dev-portfolio/assets/css/` folder and running the following command:
 
-```
+```bash
+npm install -D tailwindcss
+cd ./themes/simple-dev-portfolio/assets/css/
 npx tailwindcss -i ./input.css -o ./output.css --watch
 ```
 
-You can also start the development Hugo server with the following command:
+You start the development Hugo server with the following command:
 
-```
+```bash
 hugo server -D
 ```
 
@@ -29,15 +31,15 @@ hugo server -D
 
 Configure Hugo to use the theme by setting some information about you to `config.yaml` file:
 
-```
+```yaml
 baseURL: "https://example.com"
 languageCode: en-us
 title: <Your Name>
 theme: simple-dev-portfolio
 
 params:
-    description: <Your Description>
-    preview_url: <Website Snapshot URL>
+  description: <Your Description>
+  preview_url: <Website Snapshot URL>
 ```
 
 While information inside `params` is optional, it is recommended to set them for SEO purposes.
@@ -58,7 +60,7 @@ Edit `data/portfolio.yaml` to populate the portfolio content. You can add more t
 
 1. Introduction
 
-```
+```yaml
 firstname: <Your first name>
 lastname: <Your last name>
 subheader: <Your Slogan>
@@ -67,61 +69,60 @@ resume: <Link to your resume document>
 
 2. Social Information (Side Bar)
 
-```
+```yaml
 social:
-    - link: <Link to social>
-      svg: <File name and extension, e.g. example.svg>
+  - link: <Link to social>
+    svg: <File name and extension, e.g. example.svg>
 ```
 
 3. About yourself
 
-```
+```yaml
 about:
-    description: <A paragraph of your self-introduction>
+  description: <A paragraph of your self-introduction>
 
-    skills:
-        - name: <Skill name>
-          svg: <File name and extension, e.g. example.svg>
-
+  skills:
+    - name: <Skill name>
+      svg: <File name and extension, e.g. example.svg>
 ```
 
 4. Your work experience
 
-```
+```yaml
 experience:
-    - company: <Name of company>
-      title: <Job title>
-      description: <A paragraph describing your job>
-      startDate: 2022-01-01
-      endDate: 2022-01-01
+  - company: <Name of company>
+    title: <Job title>
+    description: <A paragraph describing your job>
+    startDate: 2022-01-01
+    endDate: 2022-01-01
 ```
 
 5. Your hobby projects
 
-```
+```yaml
 projects:
-    - title: <Project title>
-      projectDate: 2022-01-01
-      description: <A paragraph describing your project>
-      skills:
-          - name: <Skill Name>
-            svg: <File name and extension, e.g. example.svg>
+  - title: <Project title>
+    projectDate: 2022-01-01
+    description: <A paragraph describing your project>
+    skills:
+      - name: <Skill Name>
+        svg: <File name and extension, e.g. example.svg>
 ```
 
 6. Call to action
 
-```
+```yaml
 actions:
-    - title: GitHub Profile
-      subtitle: More projects
-      button: "<Button Text>"
-      link: <Link to GitHub>
-    - title: Get In Touch
-      subtitle: "Contact me"
-      button: "Email"
-      link: mailto:<Your Email>
+  - title: GitHub Profile
+    subtitle: More projects
+    button: "<Button Text>"
+    link: <Link to GitHub>
+  - title: Get In Touch
+    subtitle: "Contact me"
+    button: "Email"
+    link: mailto:<Your Email>
 ```
 
 ## Future Development
 
--   [ ] Add blog posts
+- [ ] Add blog posts
