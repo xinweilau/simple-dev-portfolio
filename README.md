@@ -4,6 +4,14 @@ A clean and simple portfolio website for developers. Built with Hugo and Tailwin
 
 ## Dependencies
 
+### Installation
+
+Run this command from the root of your Hugo directory:
+
+```bash
+git clone git@github.com:xinweilau/simple-dev-portfolio.git themes/simple-dev-portfolio
+```
+
 As this theme is built with [Hugo](https://gohugo.io/) and [Tailwind CSS](https://tailwindcss.com/), it requires the following dependencies:
 
 1. [Install Tailwind CLI](https://tailwindcss.com/docs/installation)
@@ -12,8 +20,6 @@ As this theme is built with [Hugo](https://gohugo.io/) and [Tailwind CSS](https:
 During development, ensure that the interactive mode for the Tailwind CLI is active (if you have any custom CSS). This can be done by navigating to `./themes/simple-dev-portfolio/assets/css/` folder and running the following command:
 
 ```bash
-npm install -D tailwindcss
-cd ./themes/simple-dev-portfolio/assets/css/
 npx tailwindcss -i ./input.css -o ./output.css --watch
 ```
 

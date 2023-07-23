@@ -740,10 +740,6 @@ p {
   flex-shrink: 0;
 }
 
-.basis-full {
-  flex-basis: 100%;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1011,8 +1007,8 @@ p {
     width: 75%;
   }
 
-  .md\:basis-6\/12 {
-    flex-basis: 50%;
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
