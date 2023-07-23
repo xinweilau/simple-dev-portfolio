@@ -11,7 +11,7 @@
     <meta
         name="image"
         property="og:image"
-        content="https://live.staticflickr.com/65535/52278999235_d444f4252e_b.jpg"
+        content="{{ .Site.Params.preview_url }}"
     />
 
     {{ $styles := resources.Get "js/index.js" | minify }}

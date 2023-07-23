@@ -1,8 +1,8 @@
-baseURL: https://xinweilau.com/
+baseURL: https://example.com/
 languageCode: en-us
-title: Lau Xin Wei
+title: Your Name Here
 theme: simple-dev-portfolio
 
 params:
-    description: An aspiring Full-stack developer and sophomore at Nanyang Technological University, currently pursuing a degree in Computer Science. I am a highly motivated individual who consistently strives to improve my skills, and enjoys creating meaningful and useful solutions that helps tackle problems in our everyday lives.
-    preview_url: https://live.staticflickr.com/65535/52278999235_d444f4252e_b.jpg
+  description: Sodales ridiculus netus malesuada sapien ornare mattis
+  preview_url: https://example.com/
